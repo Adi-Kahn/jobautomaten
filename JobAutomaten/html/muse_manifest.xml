@@ -1,0 +1,224 @@
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.jobautomaten.dk" resolutions="1x" timestamp="1462276484756">
+  <folder name="css">
+    <file name="site_global.css" crc="357377259"/>
+    <file name="master_a-master.css" crc="404929823" ref="kontakt:marie---30-år---kbh:om-jobautomaten:peter---28-år---rødovre:forside:søg-kopi:glemt-kodeord-virksomhedsbruger:virksomhedsbruger-log-ind:indryk-ny-jobannonce:opret-virksomhedsbruger:cv-søgning:kontakt-os"/>
+    <file name="master_jobs_gende-master.css" crc="507032969" ref="index:opret-personligt-cv:job-og-ledige-stillinger"/>
+    <file name="kontakt.css" crc="4282741842" ref="kontakt"/>
+    <file name="iefonts_kontakt.css" crc="4153606658" ref="kontakt"/>
+    <file name="marie---30-_r---kbh.css" crc="3998256753" ref="marie---30-år---kbh"/>
+    <file name="iefonts_marie---30-_r---kbh.css" crc="3877960249" ref="marie---30-år---kbh"/>
+    <file name="om-jobautomaten.css" crc="74578237" ref="om-jobautomaten"/>
+    <file name="iefonts_om-jobautomaten.css" crc="525166175" ref="om-jobautomaten"/>
+    <file name="peter---28-_r---r_dovre.css" crc="268719495" ref="peter---28-år---rødovre"/>
+    <file name="iefonts_peter---28-_r---r_dovre.css" crc="4268494050" ref="peter---28-år---rødovre"/>
+    <file name="forside.css" crc="482527713" ref="forside"/>
+    <file name="iefonts_forside.css" crc="120553082" ref="forside"/>
+    <file name="s_g-kopi.css" crc="377991145" ref="søg-kopi"/>
+    <file name="iefonts_s_g-kopi.css" crc="372056490" ref="søg-kopi"/>
+    <file name="glemt-kodeord-virksomhedsbruger.css" crc="153557105" ref="glemt-kodeord-virksomhedsbruger"/>
+    <file name="iefonts_glemt-kodeord-virksomhedsbruger.css" crc="213657209" ref="glemt-kodeord-virksomhedsbruger"/>
+    <file name="index.css" crc="465432810" ref="index"/>
+    <file name="iefonts_index.css" crc="4140612782" ref="index"/>
+    <file name="virksomhedsbruger-log-ind.css" crc="436326789" ref="virksomhedsbruger-log-ind"/>
+    <file name="iefonts_virksomhedsbruger-log-ind.css" crc="259482242" ref="virksomhedsbruger-log-ind"/>
+    <file name="opret-personligt-cv.css" crc="4177691593" ref="opret-personligt-cv"/>
+    <file name="iefonts_opret-personligt-cv.css" crc="368510544" ref="opret-personligt-cv"/>
+    <file name="job-og-ledige-stillinger.css" crc="465411198" ref="job-og-ledige-stillinger"/>
+    <file name="iefonts_job-og-ledige-stillinger.css" crc="4294232286" ref="job-og-ledige-stillinger"/>
+    <file name="indryk-ny-jobannonce.css" crc="3871240463" ref="indryk-ny-jobannonce"/>
+    <file name="iefonts_indryk-ny-jobannonce.css" crc="4167333291" ref="indryk-ny-jobannonce"/>
+    <file name="opret-virksomhedsbruger.css" crc="193954869" ref="opret-virksomhedsbruger"/>
+    <file name="iefonts_opret-virksomhedsbruger.css" crc="4072338408" ref="opret-virksomhedsbruger"/>
+    <file name="cv-s_gning.css" crc="230153187" ref="cv-søgning"/>
+    <file name="iefonts_cv-s_gning.css" crc="4132024059" ref="cv-søgning"/>
+    <file name="kontakt-os.css" crc="40305221" ref="kontakt-os"/>
+    <file name="iefonts_kontakt-os.css" crc="3894191239" ref="kontakt-os"/>
+  </folder>
+  <folder name="assets">
+    <file name="test-philipa.png" crc="3921566309" seo="true" mt="1460665290000"/>
+    <file name="test-philip.png" crc="3781777142" seo="true" mt="1460665591000"/>
+    <file name="mand.mp4" crc="3960662829" seo="true" mt="1456773898000"/>
+    <file name="manman.mp4" crc="471540384" seo="true" mt="1461070928000"/>
+    <file name="kvinde.mp4" crc="93339115" seo="true" mt="1389760440000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="207176553" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="museutils.js" crc="3790713428" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="whatinput.js" crc="84559013" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3918880840" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="jquery.watch.js" crc="4244854265" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="jquery.musemenu.js" crc="238543590" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="webpro.js" crc="329496574" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="musewpslideshow.js" crc="394033048" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder"/>
+    <file name="jquery.museoverlay.js" crc="4265131668" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder"/>
+    <file name="touchswipe.js" crc="497316881" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder"/>
+    <file name="pie.js" crc="3827607177" ref="phone>index:phone>søg-job:phone>søg-medarbejder:forside:cv-søgning:opret-personligt-cv:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi"/>
+    <file name="form_check.php" crc="3805695515" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:forside:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="form_throttle.php" crc="3802629389" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:forside:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="form_process.php" crc="54267062" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:forside:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="form-u1754.php" crc="4030096142" ref="phone>index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="form-u2384.php" crc="4121156597" ref="phone>kontakt"/>
+    <file name="form-u18412.php" crc="300653936" ref="phone>opret-annonce"/>
+    <file name="form-u18991.php" crc="3767530669" ref="phone>opret-cv"/>
+    <file name="form-u547.php" crc="3807216542" ref="forside"/>
+    <file name="jquery.scrolleffects.js" crc="4219894366" ref="forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="form-u24585.php" crc="486652915" ref="cv-søgning"/>
+    <file name="form-u24362.php" crc="4152723917" ref="cv-søgning"/>
+    <file name="form-u5909.php" crc="4131541457" ref="opret-personligt-cv"/>
+    <file name="form-u26229.php" crc="4242771374" ref="indryk-ny-jobannonce"/>
+    <file name="museredirect.js" crc="71780213" ref="index:kontakt"/>
+    <file name="form-u10338.php" crc="95545433" ref="index"/>
+    <file name="form-u27207.php" crc="535536795" ref="job-og-ledige-stillinger"/>
+    <file name="form-u15884.php" crc="402137683" ref="kontakt-os"/>
+    <file name="form-u15947.php" crc="4280392060" ref="kontakt"/>
+    <file name="form-u23153.php" crc="3825013031" ref="marie---30-år---kbh"/>
+    <file name="form-u23462.php" crc="312609326" ref="peter---28-år---rødovre"/>
+    <file name="form-u25311.php" crc="394877165" ref="virksomhedsbruger-log-ind"/>
+    <file name="form-u25570.php" crc="393925116" ref="opret-virksomhedsbruger"/>
+    <file name="form-u25819.php" crc="313315266" ref="glemt-kodeord-virksomhedsbruger"/>
+  </folder>
+  <folder name="images">
+    <file name="adobestock_97104276.jpg" crc="481651160" ref="phone>index:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi"/>
+    <file name="pattern.png" crc="146577256" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi"/>
+    <file name="logo-jobautomaten.png" crc="3793950422" seo="true" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="skew_01.png" crc="265835373" ref="phone>index:phone>kontakt:phone>opret-annonce:phone>opret-cv:phone>søg-job:phone>søg-medarbejder:forside:om-jobautomaten:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:index:job-og-ledige-stillinger:kontakt-os:kontakt:marie---30-år---kbh:peter---28-år---rødovre:søg-kopi:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="newsletter.png" crc="3958071795" ref="phone>index"/>
+    <file name="u1765-17.png" crc="148069994" ref="phone>index"/>
+    <file name="u1765-17-r.png" crc="148069994" ref="phone>index"/>
+    <file name="u1765-17-m.png" crc="148069994" ref="phone>index"/>
+    <file name="u1765-17-fs.png" crc="148069994" ref="phone>index"/>
+    <file name="skew_03.jpg" crc="521957110" ref="phone>index:forside:opret-personligt-cv"/>
+    <file name="dollarphotoclub_54096104_23.jpg" crc="62825951" ref="phone>kontakt:forside:opret-personligt-cv:indryk-ny-jobannonce:index:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="u2400-17.png" crc="504279927" ref="phone>kontakt"/>
+    <file name="u2400-17-r.png" crc="504279927" ref="phone>kontakt"/>
+    <file name="u2400-17-m.png" crc="504279927" ref="phone>kontakt"/>
+    <file name="u2400-17-fs.png" crc="504279927" ref="phone>kontakt"/>
+    <file name="u18430-17.png" crc="445774605" ref="phone>opret-annonce"/>
+    <file name="u18430-17-r.png" crc="4083915220" ref="phone>opret-annonce"/>
+    <file name="u18430-17-m.png" crc="319286870" ref="phone>opret-annonce"/>
+    <file name="u18430-17-fs.png" crc="4270233671" ref="phone>opret-annonce"/>
+    <file name="checkboxunchecked.jpg" crc="3783961257" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="checkboxuncheckedrollover.jpg" crc="3898835355" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="checkboxuncheckedmousedown.jpg" crc="4019589203" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="checkboxchecked.jpg" crc="3760363524" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="checkboxcheckedrollover.jpg" crc="3914243265" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="checkboxcheckedmousedown.jpg" crc="350609565" ref="phone>opret-annonce:phone>opret-cv:cv-søgning:opret-personligt-cv:indryk-ny-jobannonce:job-og-ledige-stillinger:virksomhedsbruger-log-ind:opret-virksomhedsbruger"/>
+    <file name="u19010-17.png" crc="533539230" ref="phone>opret-cv"/>
+    <file name="u19010-17-r.png" crc="448503253" ref="phone>opret-cv"/>
+    <file name="u19010-17-m.png" crc="3987275405" ref="phone>opret-cv"/>
+    <file name="u19010-17-fs.png" crc="4059834505" ref="phone>opret-cv"/>
+    <file name="images-9-ieu19784-fr.png" crc="182128762" ref="phone>søg-job:phone>søg-medarbejder:cv-søgning:søg-kopi"/>
+    <file name="images-9.jpg" crc="436438760" ref="phone>søg-job:phone>søg-medarbejder:cv-søgning:søg-kopi"/>
+    <file name="pattern-u19781-fr.png" crc="132722718" ref="phone>søg-job:phone>søg-medarbejder:forside:cv-søgning:index:søg-kopi"/>
+    <file name="adobestock_32686729.jpg" crc="4294313483" ref="forside:om-jobautomaten:kontakt-os:kontakt:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="skew_02.jpg" crc="3982810514" ref="forside:index:virksomhedsbruger-log-ind:opret-virksomhedsbruger:glemt-kodeord-virksomhedsbruger"/>
+    <file name="adobestock_91918504-4.jpg" crc="4023711661" ref="forside"/>
+    <file name="adobestock_77005181-2.jpg" crc="3844419425" ref="forside:index"/>
+    <file name="u554-17.png" crc="4165845590" ref="forside"/>
+    <file name="u554-17-r.png" crc="4165845590" ref="forside"/>
+    <file name="u554-17-m.png" crc="4165845590" ref="forside"/>
+    <file name="u554-17-fs.png" crc="4165845590" ref="forside"/>
+    <file name="u24593-17.png" crc="3797903973" ref="cv-søgning"/>
+    <file name="u24593-17-r.png" crc="4037255694" ref="cv-søgning"/>
+    <file name="u24593-17-m.png" crc="411828798" ref="cv-søgning"/>
+    <file name="u24593-17-fs.png" crc="299901028" ref="cv-søgning"/>
+    <file name="screen shot 2016-04-19 at 151021.jpg" crc="533894993" ref="cv-søgning:søg-kopi"/>
+    <file name="u24370-17.png" crc="3797903973" ref="cv-søgning"/>
+    <file name="u24370-17-r.png" crc="4037255694" ref="cv-søgning"/>
+    <file name="u24370-17-m.png" crc="411828798" ref="cv-søgning"/>
+    <file name="u24370-17-fs.png" crc="299901028" ref="cv-søgning"/>
+    <file name="screen shot 2016-04-19 at 150909.jpg" crc="384038063" ref="cv-søgning:søg-kopi"/>
+    <file name="ansat af arriva.png" crc="4152350993" seo="true" ref="cv-søgning:søg-kopi"/>
+    <file name="ansat af bilka.png" crc="3979341609" seo="true" ref="cv-søgning:søg-kopi"/>
+    <file name="u5969-17.png" crc="533539230" ref="opret-personligt-cv"/>
+    <file name="u5969-17-r.png" crc="448503253" ref="opret-personligt-cv"/>
+    <file name="u5969-17-m.png" crc="3987275405" ref="opret-personligt-cv"/>
+    <file name="u5969-17-fs.png" crc="4059834505" ref="opret-personligt-cv"/>
+    <file name="u26287-17.png" crc="533539230" ref="indryk-ny-jobannonce"/>
+    <file name="u26287-17-r.png" crc="448503253" ref="indryk-ny-jobannonce"/>
+    <file name="u26287-17-m.png" crc="3987275405" ref="indryk-ny-jobannonce"/>
+    <file name="u26287-17-fs.png" crc="4059834505" ref="indryk-ny-jobannonce"/>
+    <file name="adobestock_79339994.jpg" crc="3902960383" ref="index"/>
+    <file name="u10348-17.png" crc="4165845590" ref="index"/>
+    <file name="u10348-17-r.png" crc="4165845590" ref="index"/>
+    <file name="u10348-17-m.png" crc="4165845590" ref="index"/>
+    <file name="u10348-17-fs.png" crc="4165845590" ref="index"/>
+    <file name="u27271-17.png" crc="3797903973" ref="job-og-ledige-stillinger"/>
+    <file name="u27271-17-r.png" crc="4037255694" ref="job-og-ledige-stillinger"/>
+    <file name="u27271-17-m.png" crc="411828798" ref="job-og-ledige-stillinger"/>
+    <file name="u27271-17-fs.png" crc="299901028" ref="job-og-ledige-stillinger"/>
+    <file name="servisio-logo-4-u11954-fr.png" crc="491474618" ref="job-og-ledige-stillinger"/>
+    <file name="lejelistennu 2.png" crc="483739151" seo="true" ref="job-og-ledige-stillinger"/>
+    <file name="tolkdanmark-logo.png" crc="393772488" seo="true" ref="job-og-ledige-stillinger"/>
+    <file name="logo-ikon-shound.png" crc="4262784724" seo="true" ref="job-og-ledige-stillinger"/>
+    <file name="ditvikarbureau.png" crc="6829174" seo="true" ref="job-og-ledige-stillinger"/>
+    <file name="u15899-17.png" crc="355544573" ref="kontakt-os"/>
+    <file name="u15899-17-r.png" crc="272721290" ref="kontakt-os"/>
+    <file name="u15899-17-m.png" crc="3960297040" ref="kontakt-os"/>
+    <file name="u15899-17-fs.png" crc="3773439886" ref="kontakt-os"/>
+    <file name="logo.png" crc="4199826102" seo="true" ref="kontakt-os"/>
+    <file name="u15959-17.png" crc="355544573" ref="kontakt"/>
+    <file name="u15959-17-r.png" crc="272721290" ref="kontakt"/>
+    <file name="u15959-17-m.png" crc="3960297040" ref="kontakt"/>
+    <file name="u15959-17-fs.png" crc="3773439886" ref="kontakt"/>
+    <file name="u23164-17.png" crc="4077461188" ref="marie---30-år---kbh"/>
+    <file name="u23164-17-r.png" crc="291300091" ref="marie---30-år---kbh"/>
+    <file name="u23164-17-m.png" crc="439741968" ref="marie---30-år---kbh"/>
+    <file name="u23164-17-fs.png" crc="3920445957" ref="marie---30-år---kbh"/>
+    <file name="u23478-17.png" crc="4077461188" ref="peter---28-år---rødovre"/>
+    <file name="u23478-17-r.png" crc="291300091" ref="peter---28-år---rødovre"/>
+    <file name="u23478-17-m.png" crc="439741968" ref="peter---28-år---rødovre"/>
+    <file name="u23478-17-fs.png" crc="3920445957" ref="peter---28-år---rødovre"/>
+    <file name="u25327-17.png" crc="7846700" ref="virksomhedsbruger-log-ind"/>
+    <file name="u25327-17-r.png" crc="329695528" ref="virksomhedsbruger-log-ind"/>
+    <file name="u25327-17-m.png" crc="320562894" ref="virksomhedsbruger-log-ind"/>
+    <file name="u25327-17-fs.png" crc="369899597" ref="virksomhedsbruger-log-ind"/>
+    <file name="u25586-17.png" crc="168899887" ref="opret-virksomhedsbruger"/>
+    <file name="u25586-17-r.png" crc="29265347" ref="opret-virksomhedsbruger"/>
+    <file name="u25586-17-m.png" crc="348740199" ref="opret-virksomhedsbruger"/>
+    <file name="u25586-17-fs.png" crc="188298707" ref="opret-virksomhedsbruger"/>
+    <file name="u25855-17.png" crc="521284052" ref="glemt-kodeord-virksomhedsbruger"/>
+    <file name="u25855-17-r.png" crc="4093010583" ref="glemt-kodeord-virksomhedsbruger"/>
+    <file name="u25855-17-m.png" crc="526014987" ref="glemt-kodeord-virksomhedsbruger"/>
+    <file name="u25855-17-fs.png" crc="168964227" ref="glemt-kodeord-virksomhedsbruger"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="master_a-master.css" crc="4086791038" ref="phone>søg-medarbejder:phone>søg-job:phone>opret-cv:phone>opret-annonce:phone>kontakt:phone>index"/>
+      <file name="s_g-medarbejder.css" crc="362248384" ref="phone>søg-medarbejder"/>
+      <file name="iefonts_s_g-medarbejder.css" crc="4217961033" ref="phone>søg-medarbejder"/>
+      <file name="s_g-job.css" crc="363896561" ref="phone>søg-job"/>
+      <file name="iefonts_s_g-job.css" crc="415979139" ref="phone>søg-job"/>
+      <file name="opret-cv.css" crc="39191410" ref="phone>opret-cv"/>
+      <file name="iefonts_opret-cv.css" crc="4212508369" ref="phone>opret-cv"/>
+      <file name="opret-annonce.css" crc="3947686656" ref="phone>opret-annonce"/>
+      <file name="iefonts_opret-annonce.css" crc="512409663" ref="phone>opret-annonce"/>
+      <file name="kontakt.css" crc="4210691373" ref="phone>kontakt"/>
+      <file name="iefonts_kontakt.css" crc="3846510008" ref="phone>kontakt"/>
+      <file name="index.css" crc="4148447052" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="4205333040" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="3780729930" seo="true" mt="1460704294988" redirect="true"/>
+    <file name="kontakt.html" crc="3780740707" seo="true" mt="1460704294988" redirect="true"/>
+    <file name="opret-annonce.html" crc="4087469072" seo="true" mt="1461826594952" redirect="true"/>
+    <file name="opret-cv.html" crc="3894399747" seo="true" mt="1461826673498" redirect="true"/>
+    <file name="søg-job.html" crc="210896962" seo="true" mt="1461826665622" redirect="true"/>
+    <file name="søg-medarbejder.html" crc="251915421" seo="true" mt="1460704294988" redirect="true"/>
+  </folder>
+  <file name="forside.html" crc="4172171742" seo="true" mt="1462271674915" redirect="true"/>
+  <file name="om-jobautomaten.html" crc="3928231855" seo="true" mt="1462272662847" redirect="true"/>
+  <file name="cv-søgning.html" crc="4148918063" seo="true" mt="1462274511563" redirect="true"/>
+  <file name="opret-personligt-cv.html" crc="365838106" seo="true" mt="1462275660491" redirect="true"/>
+  <file name="indryk-ny-jobannonce.html" crc="195313748" seo="true" mt="1462275434156" redirect="true"/>
+  <file name="index.html" crc="485436083" seo="true" mt="1462271733148" redirect="true"/>
+  <file name="job-og-ledige-stillinger.html" crc="4067955742" seo="true" mt="1462274546065" redirect="true"/>
+  <file name="kontakt-os.html" crc="3784708242" seo="true" mt="1462272571743" redirect="true"/>
+  <file name="kontakt.html" crc="4198110901" seo="true" mt="1462272373998" redirect="true"/>
+  <file name="marie---30-år---kbh.html" crc="493793538" seo="true" mt="1461830544830" redirect="true"/>
+  <file name="peter---28-år---rødovre.html" crc="3809974303" seo="true" mt="1461830553953" redirect="true"/>
+  <file name="søg-kopi.html" crc="273870" seo="true" mt="1461829808758" redirect="true"/>
+  <file name="virksomhedsbruger-log-ind.html" crc="225762046" seo="true" mt="1462272872744" redirect="true"/>
+  <file name="opret-virksomhedsbruger.html" crc="92029922" seo="true" mt="1462272824855" redirect="true"/>
+  <file name="glemt-kodeord-virksomhedsbruger.html" crc="924224" seo="true" mt="1462272845067" redirect="true"/>
+</manifest>

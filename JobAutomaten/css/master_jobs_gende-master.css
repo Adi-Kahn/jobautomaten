@@ -1,0 +1,62 @@
+#u10927
+{
+	background: #323232 url("../images/skew_03.jpg") no-repeat center top;
+}
+
+#u10924-4
+{
+	background-color: transparent;
+	text-align: center;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: nunito, sans-serif;
+	font-weight: 400;
+}
+
+#u10925
+{
+	background-color: #FFFFFF;
+}
+
+#u10922-4
+{
+	background-color: transparent;
+	color: #7F7F7F;
+	text-align: center;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: nunito, sans-serif;
+	font-weight: 300;
+}
+
+#u10929,#u10926,#u10931
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #7F7F7F;
+	background-color: transparent;
+	border-radius: 100px;
+	color: #7F7F7F;
+	font-size: 36px;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bold;
+}
+
+#u16413-4,#u10930-4,#u10928-4,#u10923-4
+{
+	border-width: 0px;
+	background-color: transparent;
+	text-align: center;
+	line-height: 16px;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+	color: #7F7F7F;
+	font-size: 13px;
+	font-family: nunito, sans-serif;
+	font-weight: 400;
+}
+
+

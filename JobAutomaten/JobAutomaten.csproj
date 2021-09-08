@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F35EAA76-54C8-4C84-85C3-1D816E48947F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JobAutomaten</RootNamespace>
+    <AssemblyName>JobAutomaten</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.0.1011, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.1.2.3\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.1.2.3\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=1.2.3.246, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.1.2.3\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=1.2.3.490, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.1.2.3\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\job-og-ledige-stillinger2.css" />
+    <Content Include="css\JobDescriptionPage.css" />
+    <Content Include="css\opret_cv.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="html\index.aspx" />
+    <Content Include="html\indryk-ny-jobannonce.aspx" />
+    <Content Include="html\job-og-ledige-stillinger.aspx" />
+    <Content Include="html\job-og-ledige-stillinger2.html" />
+    <Content Include="html\JobDescriptionPage.aspx" />
+    <Content Include="html\opret-personligt-cv.aspx" />
+    <Content Include="html\opret-virksomhedsbruger.aspx" />
+    <Content Include="html\Search_result_jobs.aspx" />
+    <Content Include="html\virksomhedsbruger-log-ind.aspx" />
+    <Content Include="packages.config" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\kvinde.mp4" />
+    <Content Include="assets\mand.mp4" />
+    <Content Include="assets\manman.mp4" />
+    <Content Include="assets\test-philip.png" />
+    <Content Include="assets\test-philipa.png" />
+    <Content Include="css\cv-s_gning.css" />
+    <Content Include="css\forside.css" />
+    <Content Include="css\glemt-kodeord-virksomhedsbruger.css" />
+    <Content Include="css\iefonts_cv-s_gning.css" />
+    <Content Include="css\iefonts_forside.css" />
+    <Content Include="css\iefonts_glemt-kodeord-virksomhedsbruger.css" />
+    <Content Include="css\iefonts_index.css" />
+    <Content Include="css\iefonts_indryk-ny-jobannonce.css" />
+    <Content Include="css\iefonts_job-og-ledige-stillinger.css" />
+    <Content Include="css\iefonts_kontakt-os.css" />
+    <Content Include="css\iefonts_kontakt.css" />
+    <Content Include="css\iefonts_marie---30-_r---kbh.css" />
+    <Content Include="css\iefonts_om-jobautomaten.css" />
+    <Content Include="css\iefonts_opret-personligt-cv.css" />
+    <Content Include="css\iefonts_opret-virksomhedsbruger.css" />
+    <Content Include="css\iefonts_peter---28-_r---r_dovre.css" />
+    <Content Include="css\iefonts_s_g-kopi.css" />
+    <Content Include="css\iefonts_virksomhedsbruger-log-ind.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\indryk-ny-jobannonce.css" />
+    <Content Include="css\job-og-ledige-stillinger.css" />
+    <Content Include="css\kontakt-os.css" />
+    <Content Include="css\kontakt.css" />
+    <Content Include="css\marie---30-_r---kbh.css" />
+    <Content Include="css\master_a-master.css" />
+    <Content Include="css\master_jobs_gende-master.css" />
+    <Content Include="css\om-jobautomaten.css" />
+    <Content Include="css\opret-personligt-cv.css" />
+    <Content Include="css\opret-virksomhedsbruger.css" />
+    <Content Include="css\peter---28-_r---r_dovre.css" />
+    <Content Include="css\site_global.css" />
+    <Content Include="css\s_g-kopi.css" />
+    <Content Include="css\virksomhedsbruger-log-ind.css" />
+    <Content Include="html\cv-søgning.html" />
+    <Content Include="html\forside.html" />
+    <Content Include="html\glemt-kodeord-virksomhedsbruger.html" />
+    <Content Include="html\index.html" />
+    <Content Include="html\indryk-ny-jobannonce.html" />
+    <Content Include="html\job-og-ledige-stillinger.html" />
+    <Content Include="html\kontakt-os.html" />
+    <Content Include="html\kontakt.html" />
+    <Content Include="html\marie---30-år---kbh.html" />
+    <Content Include="html\muse_manifest.xml" />
+    <Content Include="html\om-jobautomaten.html" />
+    <Content Include="html\opret-personligt-cv.html" />
+    <Content Include="html\opret-virksomhedsbruger.html" />
+    <Content Include="html\peter---28-år---rødovre.html" />
+    <Content Include="html\sitemap.xml" />
+    <Content Include="html\søg-kopi.html" />
+    <Content Include="html\virksomhedsbruger-log-ind.html" />
+    <Content Include="images\adobestock_32686729.jpg" />
+    <Content Include="images\adobestock_77005181-2.jpg" />
+    <Content Include="images\adobestock_79339994.jpg" />
+    <Content Include="images\adobestock_91918504-4.jpg" />
+    <Content Include="images\adobestock_97104276.jpg" />
+    <Content Include="images\ansat af arriva.png" />
+    <Content Include="images\ansat af bilka.png" />
+    <Content Include="images\checkboxchecked.jpg" />
+    <Content Include="images\checkboxcheckedmousedown.jpg" />
+    <Content Include="images\checkboxcheckedrollover.jpg" />
+    <Content Include="images\checkboxunchecked.jpg" />
+    <Content Include="images\checkboxuncheckedmousedown.jpg" />
+    <Content Include="images\checkboxuncheckedrollover.jpg" />
+    <Content Include="images\ditvikarbureau.png" />
+    <Content Include="images\dollarphotoclub_54096104_23.jpg" />
+    <Content Include="images\images-9-ieu19784-fr.png" />
+    <Content Include="images\images-9.jpg" />
+    <Content Include="images\lejelistennu 2.png" />
+    <Content Include="images\logo-ikon-shound.png" />
+    <Content Include="images\logo-jobautomaten.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\newsletter.png" />
+    <Content Include="images\pattern-u19781-fr.png" />
+    <Content Include="images\pattern.png" />
+    <Content Include="images\screen shot 2016-04-19 at 150909.jpg" />
+    <Content Include="images\screen shot 2016-04-19 at 151021.jpg" />
+    <Content Include="images\servisio-logo-4-u11954-fr.png" />
+    <Content Include="images\skew_01.png" />
+    <Content Include="images\skew_02.jpg" />
+    <Content Include="images\skew_03.jpg" />
+    <Content Include="images\tolkdanmark-logo.png" />
+    <Content Include="images\u10348-17-fs.png" />
+    <Content Include="images\u10348-17-m.png" />
+    <Content Include="images\u10348-17-r.png" />
+    <Content Include="images\u10348-17.png" />
+    <Content Include="images\u15899-17-fs.png" />
+    <Content Include="images\u15899-17-m.png" />
+    <Content Include="images\u15899-17-r.png" />
+    <Content Include="images\u15899-17.png" />
+    <Content Include="images\u15959-17-fs.png" />
+    <Content Include="images\u15959-17-m.png" />
+    <Content Include="images\u15959-17-r.png" />
+    <Content Include="images\u15959-17.png" />
+    <Content Include="images\u1765-17-fs.png" />
+    <Content Include="images\u1765-17-m.png" />
+    <Content Include="images\u1765-17-r.png" />
+    <Content Include="images\u1765-17.png" />
+    <Content Include="images\u18430-17-fs.png" />
+    <Content Include="images\u18430-17-m.png" />
+    <Content Include="images\u18430-17-r.png" />
+    <Content Include="images\u18430-17.png" />
+    <Content Include="images\u19010-17-fs.png" />
+    <Content Include="images\u19010-17-m.png" />
+    <Content Include="images\u19010-17-r.png" />
+    <Content Include="images\u19010-17.png" />
+    <Content Include="images\u23164-17-fs.png" />
+    <Content Include="images\u23164-17-m.png" />
+    <Content Include="images\u23164-17-r.png" />
+    <Content Include="images\u23164-17.png" />
+    <Content Include="images\u23478-17-fs.png" />
+    <Content Include="images\u23478-17-m.png" />
+    <Content Include="images\u23478-17-r.png" />
+    <Content Include="images\u23478-17.png" />
+    <Content Include="images\u2400-17-fs.png" />
+    <Content Include="images\u2400-17-m.png" />
+    <Content Include="images\u2400-17-r.png" />
+    <Content Include="images\u2400-17.png" />
+    <Content Include="images\u24370-17-fs.png" />
+    <Content Include="images\u24370-17-m.png" />
+    <Content Include="images\u24370-17-r.png" />
+    <Content Include="images\u24370-17.png" />
+    <Content Include="images\u24593-17-fs.png" />
+    <Content Include="images\u24593-17-m.png" />
+    <Content Include="images\u24593-17-r.png" />
+    <Content Include="images\u24593-17.png" />
+    <Content Include="images\u25327-17-fs.png" />
+    <Content Include="images\u25327-17-m.png" />
+    <Content Include="images\u25327-17-r.png" />
+    <Content Include="images\u25327-17.png" />
+    <Content Include="images\u25586-17-fs.png" />
+    <Content Include="images\u25586-17-m.png" />
+    <Content Include="images\u25586-17-r.png" />
+    <Content Include="images\u25586-17.png" />
+    <Content Include="images\u25855-17-fs.png" />
+    <Content Include="images\u25855-17-m.png" />
+    <Content Include="images\u25855-17-r.png" />
+    <Content Include="images\u25855-17.png" />
+    <Content Include="images\u26287-17-fs.png" />
+    <Content Include="images\u26287-17-m.png" />
+    <Content Include="images\u26287-17-r.png" />
+    <Content Include="images\u26287-17.png" />
+    <Content Include="images\u27271-17-fs.png" />
+    <Content Include="images\u27271-17-m.png" />
+    <Content Include="images\u27271-17-r.png" />
+    <Content Include="images\u27271-17.png" />
+    <Content Include="images\u554-17-fs.png" />
+    <Content Include="images\u554-17-m.png" />
+    <Content Include="images\u554-17-r.png" />
+    <Content Include="images\u554-17.png" />
+    <Content Include="images\u5969-17-fs.png" />
+    <Content Include="images\u5969-17-m.png" />
+    <Content Include="images\u5969-17-r.png" />
+    <Content Include="images\u5969-17.png" />
+    <Content Include="phone\css\iefonts_index.css" />
+    <Content Include="phone\css\iefonts_kontakt.css" />
+    <Content Include="phone\css\iefonts_opret-annonce.css" />
+    <Content Include="phone\css\iefonts_opret-cv.css" />
+    <Content Include="phone\css\iefonts_s_g-job.css" />
+    <Content Include="phone\css\iefonts_s_g-medarbejder.css" />
+    <Content Include="phone\css\index.css" />
+    <Content Include="phone\css\kontakt.css" />
+    <Content Include="phone\css\master_a-master.css" />
+    <Content Include="phone\css\opret-annonce.css" />
+    <Content Include="phone\css\opret-cv.css" />
+    <Content Include="phone\css\s_g-job.css" />
+    <Content Include="phone\css\s_g-medarbejder.css" />
+    <Content Include="phone\index.html" />
+    <Content Include="phone\kontakt.html" />
+    <Content Include="phone\opret-annonce.html" />
+    <Content Include="phone\opret-cv.html" />
+    <Content Include="phone\søg-job.html" />
+    <Content Include="phone\søg-medarbejder.html" />
+    <Content Include="scripts\ai.0.15.0-build58334.js" />
+    <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="scripts\html5shiv.js" />
+    <Content Include="scripts\jquery-1.8.3.min.js" />
+    <Content Include="scripts\jquery.musemenu.js" />
+    <Content Include="scripts\jquery.museoverlay.js" />
+    <Content Include="scripts\jquery.musepolyfill.bgsize.js" />
+    <Content Include="scripts\jquery.scrolleffects.js" />
+    <Content Include="scripts\jquery.watch.js" />
+    <Content Include="scripts\museredirect.js" />
+    <Content Include="scripts\museutils.js" />
+    <Content Include="scripts\musewpslideshow.js" />
+    <Content Include="scripts\pie.js" />
+    <Content Include="scripts\touchswipe.js" />
+    <Content Include="scripts\webpro.js" />
+    <Content Include="scripts\whatinput.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Databaselayer\DD\DDCompanyInformation.cs" />
+    <Compile Include="App_Code\Databaselayer\DD\DDJobDescription.cs" />
+    <Compile Include="App_Code\Databaselayer\DD\DDJobMatch.cs" />
+    <Compile Include="App_Code\Databaselayer\DD\DDProfile.cs" />
+    <Compile Include="App_Code\Databaselayer\DM\DMCompanyInformation.cs" />
+    <Compile Include="App_Code\Databaselayer\DM\DMJobDescription.cs" />
+    <Compile Include="App_Code\Databaselayer\DM\DMJobMatch.cs" />
+    <Compile Include="App_Code\Databaselayer\DM\DMProfile.cs" />
+    <Compile Include="App_Code\Databaselayer\SQL\TBLCompanyInformation.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Databaselayer\SQL\TBLJobDescription.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Databaselayer\SQL\TBLJobMatch.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Databaselayer\SQL\TBLProfile.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\Databaselayer\Tabledefs\TabeldefCompanyInformation.cs" />
+    <Compile Include="App_Code\Databaselayer\Tabledefs\TabeldefJobDescription.cs" />
+    <Compile Include="App_Code\Databaselayer\Tabledefs\TabeldefJobMatch.cs" />
+    <Compile Include="App_Code\Databaselayer\Tabledefs\TabeldefProfile.cs" />
+    <Compile Include="App_Code\Helperclass.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\DDJobogLedige.cs" />
+    <Compile Include="html\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\indryk-ny-jobannonce.aspx.cs">
+      <DependentUpon>indryk-ny-jobannonce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\indryk-ny-jobannonce.aspx.designer.cs">
+      <DependentUpon>indryk-ny-jobannonce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\job-og-ledige-stillinger.aspx.cs">
+      <DependentUpon>job-og-ledige-stillinger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\job-og-ledige-stillinger.aspx.designer.cs">
+      <DependentUpon>job-og-ledige-stillinger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\JobDescriptionPage.aspx.cs">
+      <DependentUpon>JobDescriptionPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\JobDescriptionPage.aspx.designer.cs">
+      <DependentUpon>JobDescriptionPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\opret-personligt-cv.aspx.cs">
+      <DependentUpon>opret-personligt-cv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\opret-personligt-cv.aspx.designer.cs">
+      <DependentUpon>opret-personligt-cv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\opret-virksomhedsbruger.aspx.cs">
+      <DependentUpon>opret-virksomhedsbruger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\opret-virksomhedsbruger.aspx.designer.cs">
+      <DependentUpon>opret-virksomhedsbruger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\Search_result_jobs.aspx.cs">
+      <DependentUpon>Search_result_jobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\Search_result_jobs.aspx.designer.cs">
+      <DependentUpon>Search_result_jobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\virksomhedsbruger-log-ind.aspx.cs">
+      <DependentUpon>virksomhedsbruger-log-ind.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\virksomhedsbruger-log-ind.aspx.designer.cs">
+      <DependentUpon>virksomhedsbruger-log-ind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CompanyLogo\" />
+    <Folder Include="Videoupload\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2059</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2059/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.1\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
